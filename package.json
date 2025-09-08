@@ -1,0 +1,18 @@
+ 1 {
+ 2   "name": "charly-cripto",
+ 3   "version": "1.2.0",
+ 4   "description": "Cotizaciones BTC/ARS y USD (blue o btc/usd) estilo CriptoYA",
+ 5   "main": "server.js",
+ 6   "type": "module",
+ 7   "private": true,
+ 8   "scripts": {
+ 9     "start": "node server.js"
+10   },
+11   "engines": {
+12     "node": ">=18"
+13   },
+14   "dependencies": {
+15     "express": "^4.19.2",
+16     "node-fetch": "^3.3.2"
+17   }
+18 }
